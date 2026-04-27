@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ScamRadar — Is this a scam?</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="container">
+    <header>
+      <div class="logo">🔍 ScamRadar</div>
+      <p class="tagline">Paste any suspicious message or link — AI will tell you if it's a scam.</p>
+    </header>
+
+    <main>
+      <textarea id="input" placeholder="Paste a suspicious WhatsApp message, email, job offer, or URL here..."></textarea>
+      <button id="analyzeBtn" onclick="analyze()">Analyze Now</button>
+
+      <div id="result" class="result hidden"></div>
+    </main>
+
+    <footer>Free · No sign-up · Powered by AI</footer>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
